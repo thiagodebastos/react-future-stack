@@ -1,4 +1,4 @@
-# React Playground
+# React Future Stack
 
 ## 🖲 Bleeding Edge Tech Stack 🖲
 
