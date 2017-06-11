@@ -5,7 +5,7 @@ const Button = styled.button`
   fontSize: 1em;
   padding: .25em 1em;
   border-radius: 3px;
-  margin: 10px;
+  margin: 5px;
   /* Theme Dependent Styles */
   background: ${props => (props.primary ? props.theme.primary : props.theme.secondary) || 'white'};
   color: ${props => (props.primary ? props.theme.secondary : props.theme.primary) || 'white'};

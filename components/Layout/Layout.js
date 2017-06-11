@@ -15,7 +15,7 @@ class Layout extends PureComponent {
     return (
       <div>
         <Header />
-        <main style={{ background: 'papayawhip', color: 'palevioletred' }}>
+        <main style={{ background: 'papayawhip', color: 'palevioletred', height: '200vh' }}>
           <div {...this.props} />
           <Footer />
         </main>

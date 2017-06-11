@@ -1,59 +1,40 @@
 import React, { Component } from 'react'
-import Link from '../Link'
-import styled from 'styled-components'
-import toolbarBG from './assets/toolbar-bg.jpg'
+import ToolbarView from './ToolbarView'
+import ToolbarContent from './ToolbarContent'
 
-const s = {
-    rowHeight: '64px',
-    mobileRowHeight: '56px',
-    padding: '20px 28px',
-    mobilePadding: '16px',
-    mobileBreakpoint: '599px'
-}
-
-const ToolBar = styled.div`
-    backgound-image: toolbarBG;
-    height: 100px;
-`
-
-const ToolBarRow = styled.div`
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: ${s.rowHeight};
-    padding: ${s.mobilePadding};
-    box-sizing: border-box;
-
-    @media (max-width: ${s.mobileBreakpoint}) {
-      min-height: ${s.mobileRowHeight};
-      padding: ${s.mobilePadding};
-    }
-`
-
-const ToolBarSection = styled.section`
-    display: inline-flex;
-    flex: 1;
-    align-items: flex-start;
-    justify-content: center;
-    min-width: 0;
-    z-index: 1;
-    ${props => props.vertical && 'flex-direction: column;'}
-    ${props => props.test && 'color: red;'}
-`
-
+let pageTop,
+  menu,
+  yPos,
+  timesRendered = 0
 class Toolbar extends Component {
-    render() {
-        return (
-            <ToolBar>
-                <ToolBarRow>
-                    <ToolBarSection>
-                        {this.props.children}
-                    </ToolBarSection>
-                </ToolBarRow>
-            </ToolBar>
-        )
+  state = {
+    isExpanded: true
+  }
+  componentDidMount() {
+    window.addEventListener('scroll', this.yScroll)
+  }
+
+  yScroll = () => {
+    if (window.pageYOffset <= 150 && !this.state.isExpanded) {
+      this.setState({
+        isExpanded: true
+      })
+    } else if (window.pageYOffset > 150 && this.state.isExpanded) {
+      this.setState({
+        isExpanded: false
+      })
     }
+  }
+
+  render() {
+    timesRendered++
+    console.log(timesRendered)
+    return (
+      <ToolbarView isExpanded={this.state.isExpanded} fixed>
+        <ToolbarContent />
+      </ToolbarView>
+    )
+  }
 }
 
 export default Toolbar

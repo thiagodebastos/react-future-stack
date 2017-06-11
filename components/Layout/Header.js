@@ -4,27 +4,27 @@ import Toolbar from '../Toolbar'
 import Link from '../Link'
 
 class Header extends Component {
-    componentDidMount() {}
+  componentDidMount() {}
 
-    componentWillUnmount() {}
+  componentWillUnmount() {}
 
-    render() {
-        return (
-            <header>
-                <div>
-                    <Link to="/">
-                        React Static Boilerplate
-                        {' '}
-                    </Link>
-                    {' '}
-                    <Toolbar>
-                        <Navigation />
-                    </Toolbar>
-                </div>
-                {' '}
-            </header>
-        )
-    }
+  render() {
+    return (
+      <header>
+        <div>
+          <Link to="/">
+            React Static Boilerplate
+            {' '}
+          </Link>
+          {' '}
+          <Toolbar>
+            <Navigation />
+          </Toolbar>
+        </div>
+        {' '}
+      </header>
+    )
+  }
 }
 
 export default Header

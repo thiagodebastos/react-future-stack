@@ -3,8 +3,7 @@ import { storiesOf, action, linkTo } from '@kadira/storybook'
 // import Button from './Button';
 import Button from '../components/Button'
 import Welcome from './Welcome'
-import TextField from '../components/Form/TextField'
-
+import Toolbar from '../components/Toolbar'
 import { ThemeProvider } from 'styled-components'
 
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />)
@@ -35,6 +34,7 @@ storiesOf('Themes', module)
     <ThemeProvider theme={defaultTheme}>
       <div>
         <Button primary onClick={action('clicked')}>Primary Button</Button>
+        <br />
         <Button onClick={action('clicked')}>Secondary Button</Button>
       </div>
     </ThemeProvider>
@@ -43,7 +43,25 @@ storiesOf('Themes', module)
     <ThemeProvider theme={greenTheme}>
       <div>
         <Button primary onClick={action('clicked')}>Primary Button</Button>
+        <br />
         <Button onClick={action('clicked')}>Secondary Button</Button>
       </div>
     </ThemeProvider>
   )
+
+/* give page extra height to preview sticky ToolBar */
+import styled from 'styled-components'
+const PageHeight = styled.div`
+  height: 200vh;
+`
+storiesOf('Layout', module).add('ToolBar', () =>
+  <ThemeProvider theme={defaultTheme}>
+    <PageHeight>
+      <Toolbar fixed>
+        <a href="" onClick={e => e.preventDefault()}>Home</a>
+        <a href="" onClick={e => e.preventDefault()}>About</a>
+        <a href="" onClick={e => e.preventDefault()}>Blog</a>
+      </Toolbar>
+    </PageHeight>
+  </ThemeProvider>
+)
