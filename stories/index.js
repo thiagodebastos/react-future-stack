@@ -1,10 +1,9 @@
 import React from 'react'
 import { storiesOf, action, linkTo } from '@kadira/storybook'
-// import Button from './Button';
 import Button from '../components/Button'
 import Welcome from './Welcome'
 import Toolbar from '../components/Toolbar'
-import { ThemeProvider } from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components'
 
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />)
 
@@ -49,19 +48,14 @@ storiesOf('Themes', module)
     </ThemeProvider>
   )
 
-/* give page extra height to preview sticky ToolBar */
-import styled from 'styled-components'
-const PageHeight = styled.div`
-  height: 200vh;
-`
 storiesOf('Layout', module).add('ToolBar', () =>
   <ThemeProvider theme={defaultTheme}>
-    <PageHeight>
+    <div style={{ height: '200vh' }}>
       <Toolbar fixed>
         <a href="" onClick={e => e.preventDefault()}>Home</a>
         <a href="" onClick={e => e.preventDefault()}>About</a>
         <a href="" onClick={e => e.preventDefault()}>Blog</a>
       </Toolbar>
-    </PageHeight>
+    </div>
   </ThemeProvider>
 )
