@@ -20,8 +20,8 @@ const config = {
     './main.js',
   ],
 
-  ... 
-  
+  ...
+
 };
 ```
 
@@ -61,7 +61,7 @@ Decorate your UI elements with MDL classes, for example:
 ```
 
 ### Step 3
- 
+
 Create stand-alone React components for MDL elements that rely on JavaScript code to operate (see
 MDL [source code](https://github.com/google/material-design-lite/tree/mdl-1.x/src)). After such
 component mounts into the DOM, it need to notify MDL runtime that the underlying DOM elements can be
@@ -73,20 +73,15 @@ component you would write code similar to this:
 #### `components/Button/Button.js`
 
 ```js
-import React, { PropTypes } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 
 class Button extends React.Component {
 
-  static propTypes = {
-    className: PropTypes.string,
-    primary: PropTypes.bool,
-  };
-
   componentDidMount() {
     window.componentHandler.upgradeElement(this.root);      // <==
   }
-  
+
   componentWillUnmount() {
     window.componentHandler.downgradeElements(this.root);   // <==
   }
@@ -146,20 +141,16 @@ or [inline styles](https://facebook.github.io/react/tips/inline-styles.html)):
 #### `components/Spinner/Spinner.js`
 
 ```js
-import React, { PropTypes } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import s from './Spinner.css';
 
 class Spinner extends React.Component {
 
-  static propTypes = {
-    isActive: PropTypes.bool,
-  };
-
   componentDidMount() {
     window.componentHandler.upgradeElement(this.root);
   }
-  
+
   componentWillUnmount() {
     window.componentHandler.downgradeElements(this.root);
   }

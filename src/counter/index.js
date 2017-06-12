@@ -1,11 +1,9 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
 import Layout from '../../components/Layout'
 import { title, html } from './index.md'
 import Counter from '../../components/Counter'
 
 class CounterPage extends React.Component {
-  static propTypes = {}
-
   componentDidMount() {
     document.title = title
   }

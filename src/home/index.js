@@ -8,21 +8,11 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-import React, { PropTypes } from 'react'
+import React from 'react'
 import Layout from '../../components/Layout'
 import { title, html } from './index.md'
 
 class HomePage extends React.Component {
-  static propTypes = {
-    articles: PropTypes.arrayOf(
-      PropTypes.shape({
-        url: PropTypes.string.isRequired,
-        title: PropTypes.string.isRequired,
-        author: PropTypes.string.isRequired
-      }).isRequired
-    ).isRequired
-  }
-
   componentDidMount() {
     document.title = title
   }

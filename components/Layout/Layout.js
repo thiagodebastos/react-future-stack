@@ -1,4 +1,4 @@
-import React, { PureComponent, PropTypes } from 'react'
+import React, { PureComponent } from 'react'
 import Header from './Header'
 import Footer from '../Footer'
 import styled from 'styled-components'
@@ -8,10 +8,6 @@ const Wrapper = styled.div`
 `
 
 class Layout extends PureComponent {
-  static propTypes = {
-    className: PropTypes.string
-  }
-
   componentDidMount() {}
 
   componentWillUnmount() {}
