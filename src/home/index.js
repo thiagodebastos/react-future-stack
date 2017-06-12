@@ -1,15 +1,6 @@
-/**
- * React Static Boilerplate
- * https://github.com/kriasoft/react-static-boilerplate
- *
- * Copyright © 2015-present Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
 import React from 'react'
 import Layout from '../../components/Layout'
+import Link from '../../components/Link'
 import { title, html } from './index.md'
 
 class HomePage extends React.Component {
@@ -24,14 +15,11 @@ class HomePage extends React.Component {
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <h4>Articles</h4>
+        <h4>Components</h4>
         <ul>
-          {this.props.articles.map(article =>
-            <li key={article.url}>
-              <a href={article.url}>{article.title}</a>
-              by {article.author}
-            </li>
-          )}
+          <li>
+            <Link to="/counter">MobX Counter</Link>
+          </li>
         </ul>
       </Layout>
     )

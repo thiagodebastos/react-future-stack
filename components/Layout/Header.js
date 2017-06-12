@@ -13,7 +13,7 @@ class Header extends Component {
       <header>
         <div>
           <Link to="/">
-            React Static Boilerplate
+            React Future Stack
             {' '}
           </Link>
           {' '}
