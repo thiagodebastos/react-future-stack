@@ -22,5 +22,9 @@
     {
         "path": "/tasks/:status(pending|completed)?",
         "page": "./home"
+    },
+    {
+        "path": "/counter",
+        "page": "./counter"
     }
 ]
