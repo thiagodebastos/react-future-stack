@@ -14,9 +14,11 @@ import 'whatwg-fetch'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import FastClick from 'fastclick'
-import { Provider } from 'react-redux'
 
-import store from './store'
+// mobx
+import { Provider } from 'mobx-react'
+import stores from '../stores'
+
 import router from './router'
 import history from './history'
 
@@ -41,7 +43,7 @@ const container = document.getElementById('container')
 
 function renderComponent(component) {
   ReactDOM.render(
-    <Provider store={store}>
+    <Provider counter={stores.Counter}>
       <ThemeProvider theme={defaultTheme}>
         {component}
       </ThemeProvider>
