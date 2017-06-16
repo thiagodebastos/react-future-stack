@@ -48,6 +48,8 @@ const config = {
     sourcePrefix: '  '
   },
 
+  externals: ['react/addons', 'react-addons-test-utils'],
+
   // Developer tool to enhance debugging, source maps
   // http://webpack.github.io/docs/configuration.html#devtool
   devtool: isDebug ? 'source-map' : false,

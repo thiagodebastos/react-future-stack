@@ -24,7 +24,11 @@
         "page": "./home"
     },
     {
-        "path": "/counter",
-        "page": "./counter"
+        "path": "/demo-apps",
+        "page": "./demo-apps"
+    },
+    {
+        "path": "/demo-apps/counter-app",
+        "page": "./demo-apps/counter-app"
     }
 ]

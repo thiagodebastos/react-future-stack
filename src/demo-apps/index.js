@@ -1,9 +1,9 @@
 import React from 'react'
 import Layout from '../../components/Layout'
+import Link from '../../components/Link'
 import { title, html } from './index.md'
-import Counter from '../../components/Counter'
 
-class CounterPage extends React.Component {
+class DemoAppsHome extends React.Component {
   componentDidMount() {
     document.title = title
   }
@@ -15,11 +15,15 @@ class CounterPage extends React.Component {
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <h4>Counter</h4>
-        <Counter />
+        <h4>Components</h4>
+        <ul>
+          <li>
+            <Link to="/demo-apps/counter-app">Redux Counter</Link>
+          </li>
+        </ul>
       </Layout>
     )
   }
 }
 
-export default CounterPage
+export default DemoAppsHome

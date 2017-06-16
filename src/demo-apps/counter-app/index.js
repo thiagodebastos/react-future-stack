@@ -1,9 +1,9 @@
 import React from 'react'
-import Layout from '../../components/Layout'
-import Link from '../../components/Link'
+import Layout from '../../../components/Layout'
+import CounterAppContainer from '../../../containers/CounterAppContainer'
 import { title, html } from './index.md'
 
-class HomePage extends React.Component {
+class CounterPage extends React.Component {
   componentDidMount() {
     document.title = title
   }
@@ -15,15 +15,11 @@ class HomePage extends React.Component {
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <h4>Components</h4>
-        <ul>
-          <li>
-            <Link to="/demo-apps">Demo Apps</Link>
-          </li>
-        </ul>
+        <h4>Counter</h4>
+        <CounterAppContainer />
       </Layout>
     )
   }
 }
 
-export default HomePage
+export default CounterPage

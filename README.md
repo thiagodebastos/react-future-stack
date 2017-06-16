@@ -4,6 +4,9 @@
 
 - [react](https://facebook.github.io/react/) v16.0.0-alpha.3
 - [react-storybook](https://storybook.js.org/)
+- [mobx](https://github.com/mobxjs/mobx)
+- [mobx-react](https://github.com/mobxjs/mobx-react)
+- [mobx-react-devtools](https://github.com/mobxjs/mobx-react-devtools)
 - [styled-components](https://www.styled-components.com/)
 - [polished](https://polished.js.org)
 - [webpack](https://webpack.js.org/) 2
