@@ -1,6 +1,0 @@
-{
-    "name": "CounterAppContainer",
-    "version": "0.0.0",
-    "private": true,
-    "main": "./CounterAppContainer.js"
-}

@@ -19,6 +19,7 @@ class DemoAppsHome extends React.Component {
         <ul>
           <li>
             <Link to="/demo-apps/counter-app">Redux Counter</Link>
+            <Link to="/demo-apps/todo-app">Redux Todo</Link>
           </li>
         </ul>
       </Layout>

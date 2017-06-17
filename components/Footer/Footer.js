@@ -3,7 +3,7 @@ import Link from '../Link'
 import Button from '../Button'
 
 function Footer() {
-    return <footer><Button primary>Subscribe</Button></footer>
+  return <footer />
 }
 
 export default Footer

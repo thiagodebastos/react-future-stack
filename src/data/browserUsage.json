@@ -1,0 +1,1249 @@
+[{
+        "browser": "Safari",
+        "browserVersion": 10,
+        "totalViews": 67487,
+        "users": 49572
+    },
+    {
+        "browser": "Safari (in-app)",
+        "browserVersion": "(not set)",
+        "totalViews": 62319,
+        "users": 52248
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": 9,
+        "totalViews": 42132,
+        "users": 31372
+    },
+    {
+        "browser": "Internet Explorer",
+        "browserVersion": 11,
+        "totalViews": 25672,
+        "users": 19041
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "54.0.2840.85",
+        "totalViews": 17616,
+        "users": 13476
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "55.0.2883.87",
+        "totalViews": 17499,
+        "users": 11927
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "55.0.2883.91",
+        "totalViews": 14283,
+        "users": 10552
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "53.0.2785.143",
+        "totalViews": 14029,
+        "users": 10575
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "53.0.2785.124",
+        "totalViews": 13932,
+        "users": 10917
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "54.0.2840.99",
+        "totalViews": 11742,
+        "users": 8816
+    },
+    {
+        "browser": "Edge",
+        "browserVersion": 14.14393,
+        "totalViews": 11552,
+        "users": 8528
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "54.0.2840.71",
+        "totalViews": 11266,
+        "users": 8273
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "44.0.2403.133",
+        "totalViews": 10303,
+        "users": 6984
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 50,
+        "totalViews": 9192,
+        "users": 6550
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 49,
+        "totalViews": 8880,
+        "users": 6270
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": 8,
+        "totalViews": 8451,
+        "users": 5776
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "600.1.4",
+        "totalViews": 7898,
+        "users": 6611
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "55.0.2883.91",
+        "totalViews": 7329,
+        "users": 6505
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "53.0.2785.116",
+        "totalViews": 6785,
+        "users": 5183
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "54.0.2840.68",
+        "totalViews": 6728,
+        "users": 5152
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "52.0.2743.116",
+        "totalViews": 6698,
+        "users": 4554
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "49.0.2623.110",
+        "totalViews": 5576,
+        "users": 268
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "52.0.2743.98",
+        "totalViews": 5153,
+        "users": 3883
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "10.0.1",
+        "totalViews": 4952,
+        "users": 3696
+    },
+    {
+        "browser": "Android Browser",
+        "browserVersion": 4,
+        "totalViews": 4433,
+        "users": 3560
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 38,
+        "totalViews": 4368,
+        "users": 4196
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "55.0.2883.95",
+        "totalViews": 4231,
+        "users": 2743
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": 7,
+        "totalViews": 3996,
+        "users": 2947
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "54.0.2840.98",
+        "totalViews": 3887,
+        "users": 2108
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "18.0.1025.133",
+        "totalViews": 3712,
+        "users": 3631
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": 537,
+        "totalViews": 3567,
+        "users": 2200
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "10.0.2",
+        "totalViews": 3542,
+        "users": 2631
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "9.1.3",
+        "totalViews": 3496,
+        "users": 2361
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "49.0.2623.112",
+        "totalViews": 3348,
+        "users": 2336
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 48,
+        "totalViews": 3345,
+        "users": 2505
+    },
+    {
+        "browser": "Edge",
+        "browserVersion": 13.10586,
+        "totalViews": 2415,
+        "users": 1866
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "9.1.2",
+        "totalViews": 2376,
+        "users": 1719
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "51.0.2704.81",
+        "totalViews": 2232,
+        "users": 1579
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 34,
+        "totalViews": 2226,
+        "users": 2220
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "38.0.2125.102",
+        "totalViews": 2176,
+        "users": 1398
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "34.0.1847.76",
+        "totalViews": 2111,
+        "users": 1466
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "50.0.2661.89",
+        "totalViews": 2097,
+        "users": 1363
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "55.0.2883.79",
+        "totalViews": 1933,
+        "users": 1388
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "28.0.1500.94",
+        "totalViews": 1702,
+        "users": 1149
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "30.0.0.0",
+        "totalViews": 1654,
+        "users": 1336
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": 6,
+        "totalViews": 1424,
+        "users": 1078
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "54.0.2840.87",
+        "totalViews": 1259,
+        "users": 981
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "33.0.0.0",
+        "totalViews": 1218,
+        "users": 935
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "9.1.1",
+        "totalViews": 1210,
+        "users": 855
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "54.0.2840.85",
+        "totalViews": 1203,
+        "users": 1043
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 45,
+        "totalViews": 1155,
+        "users": 707
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "54.0.2840.68",
+        "totalViews": 1139,
+        "users": 991
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "51.0.2704.106",
+        "totalViews": 1098,
+        "users": 260
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "54.0.2840.91",
+        "totalViews": 1048,
+        "users": 773
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "37.0.2062.120",
+        "totalViews": 1037,
+        "users": 673
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "30.0.0.0",
+        "totalViews": 927,
+        "users": 795
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "53.0.2785.109",
+        "totalViews": 910,
+        "users": 701
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 47,
+        "totalViews": 876,
+        "users": 597
+    },
+    {
+        "browser": "Internet Explorer",
+        "browserVersion": 10,
+        "totalViews": 859,
+        "users": 646
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "55.0.2883.75",
+        "totalViews": 857,
+        "users": 260
+    },
+    {
+        "browser": "Safari (in-app)",
+        "browserVersion": "2.0.1",
+        "totalViews": 818,
+        "users": 684
+    },
+    {
+        "browser": "Safari (in-app)",
+        "browserVersion": 2.1,
+        "totalViews": 802,
+        "users": 652
+    },
+    {
+        "browser": "Safari (in-app)",
+        "browserVersion": 2.2,
+        "totalViews": 740,
+        "users": 587
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": 9.1,
+        "totalViews": 732,
+        "users": 456
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 51,
+        "totalViews": 639,
+        "users": 521
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "49.0.2623.105",
+        "totalViews": 613,
+        "users": 497
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "43.0.2357.93",
+        "totalViews": 599,
+        "users": 436
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "9.0.3",
+        "totalViews": 579,
+        "users": 426
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "6.1.6",
+        "totalViews": 574,
+        "users": 335
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "33.0.0.0",
+        "totalViews": 566,
+        "users": 484
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "54.0.2840.59",
+        "totalViews": 561,
+        "users": 463
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "53.0.2785.124",
+        "totalViews": 556,
+        "users": 490
+    },
+    {
+        "browser": "Internet Explorer",
+        "browserVersion": 9,
+        "totalViews": 540,
+        "users": 403
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "601.1.46",
+        "totalViews": 539,
+        "users": 441
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "54.0.2840.66",
+        "totalViews": 528,
+        "users": 403
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "46.0.2490.76",
+        "totalViews": 522,
+        "users": 403
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "49.0.2623.91",
+        "totalViews": 485,
+        "users": 316
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "43.0.2357.121",
+        "totalViews": 472,
+        "users": 377
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "6.2.8",
+        "totalViews": 416,
+        "users": 253
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "10.0.3",
+        "totalViews": 400,
+        "users": 310
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "51.0.2704.103",
+        "totalViews": 396,
+        "users": 276
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "50.0.2661.86",
+        "totalViews": 392,
+        "users": 325
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "53.0.2785.101",
+        "totalViews": 391,
+        "users": 295
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "50.0.2661.94",
+        "totalViews": 371,
+        "users": 263
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "8.0.8",
+        "totalViews": 358,
+        "users": 252
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "47.0.2526.83",
+        "totalViews": 356,
+        "users": 261
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "9.0.2",
+        "totalViews": 299,
+        "users": 209
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "52.0.2743.98",
+        "totalViews": 286,
+        "users": 256
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "46.0.2490.71",
+        "totalViews": 285,
+        "users": 228
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "39.0.2171.93",
+        "totalViews": 277,
+        "users": 202
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "9.0.1",
+        "totalViews": 275,
+        "users": 196
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "51.0.2704.81",
+        "totalViews": 271,
+        "users": 245
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": 9537.53,
+        "totalViews": 267,
+        "users": 211
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "5.1.9",
+        "totalViews": 262,
+        "users": 186
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "37.0.0.0",
+        "totalViews": 261,
+        "users": 193
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": 5.1,
+        "totalViews": 261,
+        "users": 192
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "52.0.2743.84",
+        "totalViews": 247,
+        "users": 174
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "48.0.2564.106",
+        "totalViews": 246,
+        "users": 194
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "40.0.2214.109",
+        "totalViews": 244,
+        "users": 189
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "50.0.2661.86",
+        "totalViews": 243,
+        "users": 204
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "53.0.2785.97",
+        "totalViews": 233,
+        "users": 162
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "53.0.2785.89",
+        "totalViews": 231,
+        "users": 177
+    },
+    {
+        "browser": "Opera",
+        "browserVersion": "37.0.2192.105088",
+        "totalViews": 221,
+        "users": 156
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "41.0.2272.76",
+        "totalViews": 212,
+        "users": 168
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "53.0.2785.113",
+        "totalViews": 212,
+        "users": 152
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "36.0.1985.135",
+        "totalViews": 209,
+        "users": 132
+    },
+    {
+        "browser": "BlackBerry",
+        "browserVersion": "10.3.2.2876",
+        "totalViews": 199,
+        "users": 153
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "49.0.2623.105",
+        "totalViews": 198,
+        "users": 164
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "35.0.1916.141",
+        "totalViews": 191,
+        "users": 147
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "43.0.2357.121",
+        "totalViews": 189,
+        "users": 168
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 46,
+        "totalViews": 188,
+        "users": 118
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "43.0.2357.130",
+        "totalViews": 186,
+        "users": 116
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "50.0.2661.102",
+        "totalViews": 186,
+        "users": 130
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "52.0.2743.82",
+        "totalViews": 186,
+        "users": 131
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "42.0.2311.111",
+        "totalViews": 185,
+        "users": 107
+    },
+    {
+        "browser": "Edge",
+        "browserVersion": 12.1024,
+        "totalViews": 178,
+        "users": 148
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "47.0.2526.106",
+        "totalViews": 174,
+        "users": 119
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "48.0.2564.95",
+        "totalViews": 172,
+        "users": 122
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "44.0.2403.107",
+        "totalViews": 164,
+        "users": 122
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "46.0.2490.76",
+        "totalViews": 163,
+        "users": 144
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "56.0.2924.76",
+        "totalViews": 163,
+        "users": 142
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 41,
+        "totalViews": 162,
+        "users": 122
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "39.0.0.0",
+        "totalViews": 161,
+        "users": 131
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "49.0.2623.87",
+        "totalViews": 158,
+        "users": 125
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "55.0.2883.84",
+        "totalViews": 158,
+        "users": 122
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "47.0.2526.107",
+        "totalViews": 155,
+        "users": 103
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "48.0.2564.116",
+        "totalViews": 154,
+        "users": 81
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "8.0.5",
+        "totalViews": 149,
+        "users": 110
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "18.0.1025.308",
+        "totalViews": 147,
+        "users": 113
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "38.0.0.0",
+        "totalViews": 145,
+        "users": 86
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "53.0.2785.86",
+        "totalViews": 142,
+        "users": 116
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 43,
+        "totalViews": 139,
+        "users": 96
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "8.0.3",
+        "totalViews": 139,
+        "users": 95
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 42,
+        "totalViews": 127,
+        "users": 59
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "39.0.0.0",
+        "totalViews": 124,
+        "users": 92
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "37.0.0.0",
+        "totalViews": 121,
+        "users": 102
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "43.0.2357.134",
+        "totalViews": 118,
+        "users": 80
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "49.0.2623.75",
+        "totalViews": 118,
+        "users": 62
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "53.0.2785.154",
+        "totalViews": 118,
+        "users": 91
+    },
+    {
+        "browser": "Internet Explorer",
+        "browserVersion": 7,
+        "totalViews": 116,
+        "users": 90
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "8.0.7",
+        "totalViews": 112,
+        "users": 84
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "38.0.0.0",
+        "totalViews": 107,
+        "users": 75
+    },
+    {
+        "browser": "Android Webview",
+        "browserVersion": "48.0.2564.106",
+        "totalViews": 106,
+        "users": 91
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "46.0.2490.80",
+        "totalViews": 104,
+        "users": 59
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "34.0.1847.114",
+        "totalViews": 103,
+        "users": 78
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "50.0.2661.75",
+        "totalViews": 103,
+        "users": 79
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "4.0.5",
+        "totalViews": 101,
+        "users": 101
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "44.0.2403.125",
+        "totalViews": 99,
+        "users": 78
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": 8536.25,
+        "totalViews": 97,
+        "users": 80
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 44,
+        "totalViews": 96,
+        "users": 73
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "45.0.2454.101",
+        "totalViews": 95,
+        "users": 70
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "51.0.2704.84",
+        "totalViews": 95,
+        "users": 65
+    },
+    {
+        "browser": "Amazon Silk",
+        "browserVersion": "54.4.4",
+        "totalViews": 93,
+        "users": 65
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "46.0.2490.86",
+        "totalViews": 91,
+        "users": 62
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "54.0.2840.61",
+        "totalViews": 90,
+        "users": 79
+    },
+    {
+        "browser": "Mozilla",
+        "browserVersion": 40,
+        "totalViews": 90,
+        "users": 5
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "5.0.2",
+        "totalViews": 89,
+        "users": 69
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 31,
+        "totalViews": 81,
+        "users": 51
+    },
+    {
+        "browser": "Amazon Silk",
+        "browserVersion": "53.3.5",
+        "totalViews": 80,
+        "users": 63
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "55.0.2883.77",
+        "totalViews": 80,
+        "users": 63
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "602.1.50",
+        "totalViews": 79,
+        "users": 61
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "51.0.2704.104",
+        "totalViews": 77,
+        "users": 53
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "47.0.2526.80",
+        "totalViews": 74,
+        "users": 58
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "48.0.2564.109",
+        "totalViews": 72,
+        "users": 56
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "18.0.1025.166",
+        "totalViews": 71,
+        "users": 59
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "43.0.2357.124",
+        "totalViews": 66,
+        "users": 46
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "602.2.14",
+        "totalViews": 65,
+        "users": 39
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 33,
+        "totalViews": 64,
+        "users": 30
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "602.3.12",
+        "totalViews": 64,
+        "users": 47
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "7.0.6",
+        "totalViews": 64,
+        "users": 52
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "6.0.2",
+        "totalViews": 63,
+        "users": 2
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "48.0.2564.97",
+        "totalViews": 62,
+        "users": 33
+    },
+    {
+        "browser": "Opera",
+        "browserVersion": "37.0.2192.105989",
+        "totalViews": 62,
+        "users": 39
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 40,
+        "totalViews": 61,
+        "users": 49
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "8.0.6",
+        "totalViews": 61,
+        "users": 50
+    },
+    {
+        "browser": "Android Browser",
+        "browserVersion": 4.2,
+        "totalViews": 60,
+        "users": 50
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "44.0.2403.130",
+        "totalViews": 60,
+        "users": 33
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "45.0.2454.95",
+        "totalViews": 60,
+        "users": 50
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "34.0.1847.118",
+        "totalViews": 59,
+        "users": 42
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "54.0.2840.101",
+        "totalViews": 59,
+        "users": 53
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "43.0.2357.65",
+        "totalViews": 58,
+        "users": 41
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "39.0.2171.71",
+        "totalViews": 57,
+        "users": 22
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "46.0.2490.85",
+        "totalViews": 57,
+        "users": 44
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "48.0.2564.82",
+        "totalViews": 57,
+        "users": 39
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 39,
+        "totalViews": 57,
+        "users": 38
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "30.0.1599.103",
+        "totalViews": 55,
+        "users": 40
+    },
+    {
+        "browser": "Opera",
+        "browserVersion": "35.2.2070.103882",
+        "totalViews": 53,
+        "users": 33
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "54.0.2840.100",
+        "totalViews": 52,
+        "users": 39
+    },
+    {
+        "browser": "Opera",
+        "browserVersion": "42.0.2393.94",
+        "totalViews": 51,
+        "users": 44
+    },
+    {
+        "browser": "Amazon Silk",
+        "browserVersion": "52.1.79",
+        "totalViews": 50,
+        "users": 40
+    },
+    {
+        "browser": "Opera",
+        "browserVersion": "37.0.2192.107169",
+        "totalViews": 49,
+        "users": 34
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "8.0.2",
+        "totalViews": 49,
+        "users": 34
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "50.0.2661.95",
+        "totalViews": 48,
+        "users": 25
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "51.0.2704.79",
+        "totalViews": 47,
+        "users": 30
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "51.0.2704.63",
+        "totalViews": 46,
+        "users": 35
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "55.0.2883.103",
+        "totalViews": 46,
+        "users": 41
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "51.0.2704.64",
+        "totalViews": 45,
+        "users": 26
+    },
+    {
+        "browser": "Opera",
+        "browserVersion": "41.0.2353.46",
+        "totalViews": 45,
+        "users": 34
+    },
+    {
+        "browser": "Opera",
+        "browserVersion": "41.0.2353.69",
+        "totalViews": 45,
+        "users": 36
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "43.0.2357.132",
+        "totalViews": 44,
+        "users": 14
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "44.0.2403.117",
+        "totalViews": 44,
+        "users": 37
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "45.0.2454.93",
+        "totalViews": 44,
+        "users": 17
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 36,
+        "totalViews": 44,
+        "users": 28
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "40.0.2214.91",
+        "totalViews": 43,
+        "users": 33
+    },
+    {
+        "browser": "Firefox",
+        "browserVersion": 35,
+        "totalViews": 43,
+        "users": 30
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "45.0.2454.85",
+        "totalViews": 42,
+        "users": 30
+    },
+    {
+        "browser": "Safari",
+        "browserVersion": "8.0.4",
+        "totalViews": 42,
+        "users": 35
+    },
+    {
+        "browser": "Chrome",
+        "browserVersion": "44.0.2403.119",
+        "totalViews": 41,
+        "users": 29
+    }
+]

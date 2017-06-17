@@ -30,5 +30,9 @@
     {
         "path": "/demo-apps/counter-app",
         "page": "./demo-apps/counter-app"
+    },
+    {
+        "path": "/demo-apps/todo-app",
+        "page": "./demo-apps/todo-app"
     }
 ]

@@ -3,11 +3,13 @@ import Button from '../Button'
 
 class Counter extends Component {
   render() {
+    const { increment, decrement } = this.props
+    const { count } = this.props.counterApp
     return (
       <div>
-        Counter: {this.props.counterApp} <br />
-        <Button onClick={this.props.increment} primary> + </Button>
-        <Button onClick={this.props.decrement}> - </Button>
+        Counter: {count} <br />
+        <Button onClick={increment} primary> + </Button>
+        <Button onClick={decrement}> - </Button>
       </div>
     )
   }
