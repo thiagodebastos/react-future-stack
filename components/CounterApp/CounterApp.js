@@ -6,8 +6,8 @@ type Props = {
   counterApp: {
     count: number
   },
-  increment: Action,
-  decrement: Action
+  increment: CounterAction,
+  decrement: CounterAction
 };
 
 const Counter = (props: Props) =>

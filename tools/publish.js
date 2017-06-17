@@ -8,11 +8,11 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-const path = require('path')
-const firebase = require('firebase-tools')
-const build = require('./build')
-const task = require('./task')
-const config = require('./config')
+const path = require('path');
+const firebase = require('firebase-tools');
+const build = require('./build');
+const task = require('./task');
+const config = require('./config');
 
 // Build and deploy the app to Firebase
 module.exports = task('deploy', () =>
@@ -26,6 +26,6 @@ module.exports = task('deploy', () =>
       })
     )
     .then(() => {
-      setTimeout(() => process.exit())
+      setTimeout(() => process.exit());
     })
-)
+);
