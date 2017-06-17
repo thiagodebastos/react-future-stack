@@ -13,6 +13,7 @@
 - [react-static-boilerplate](https://github.com/kriasoft/react-static-boilerplate)
 - [prettier](https://github.com/prettier/prettier)
 - [markdown-loader](https://github.com/peerigon/markdown-loader)
+- [flow](https://github.com/facebook/flow)
 
 ## Lots learned from
 
