@@ -1,18 +1,20 @@
-import React, { Component } from 'react'
-import Button from '../Button'
+// @flow
+import React from 'react';
+import Button from '../Button';
 
-class Counter extends Component {
-  render() {
-    const { increment, decrement } = this.props
-    const { count } = this.props.counterApp
-    return (
-      <div>
-        Counter: {count} <br />
-        <Button onClick={increment} primary> + </Button>
-        <Button onClick={decrement}> - </Button>
-      </div>
-    )
-  }
-}
+type Props = {
+  counterApp: {
+    count: number
+  },
+  increment: Action,
+  decrement: Action
+};
 
-export default Counter
+const Counter = (props: Props) =>
+  <div>
+    Counter: {props.counterApp.count} <br />
+    <Button onClick={props.increment} primary> + </Button>
+    <Button onClick={props.decrement}> - </Button>
+  </div>;
+
+export default Counter;

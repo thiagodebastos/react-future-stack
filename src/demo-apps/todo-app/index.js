@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Layout from '../../../components/Layout'
-import ToDoAppContainer from '../../../containers/ToDoAppContainer'
+import TodoAppContainer from '../../../containers/TodoAppContainer'
 import { title, html } from './index.md'
 
 class CounterPage extends Component {
@@ -16,7 +16,7 @@ class CounterPage extends Component {
           dangerouslySetInnerHTML={{ __html: html }}
         />
         <h4>Counter</h4>
-        <ToDoAppContainer />
+        <TodoAppContainer />
       </Layout>
     )
   }

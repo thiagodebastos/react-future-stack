@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux'
 import { createLogger } from 'redux-logger'
 import counterApp from './modules/counterApp'
-import toDoApp from './modules/toDoApp'
+import todoApp from './modules/todoApp'
 
 const loggerMiddleware = createLogger()
 
@@ -9,7 +9,7 @@ const createStoreWithMiddleware = applyMiddleware(loggerMiddleware)(createStore)
 
 const reducer = combineReducers({
   counterApp,
-  toDoApp
+  todoApp
 })
 
 const configureStore = initialState =>

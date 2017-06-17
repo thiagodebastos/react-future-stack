@@ -10,19 +10,24 @@
 
 /* eslint-disable global-require, no-confusing-arrow, max-len */
 
-const path = require('path')
-const webpack = require('webpack')
-const AssetsPlugin = require('assets-webpack-plugin')
-const pkg = require('../package.json')
+const path = require('path');
+const webpack = require('webpack');
+const AssetsPlugin = require('assets-webpack-plugin');
+const pkg = require('../package.json');
 
-const isDebug = global.DEBUG === false ? false : !process.argv.includes('--release')
-const isVerbose = process.argv.includes('--verbose') || process.argv.includes('-v')
-const useHMR = !!global.HMR // Hot Module Replacement (HMR)
+const isDebug = global.DEBUG === false
+  ? false
+  : !process.argv.includes('--release');
+const isVerbose =
+  process.argv.includes('--verbose') || process.argv.includes('-v');
+const useHMR = !!global.HMR; // Hot Module Replacement (HMR)
 const babelConfig = Object.assign({}, pkg.babel, {
   babelrc: false,
   cacheDirectory: useHMR,
-  presets: pkg.babel.presets.map(x => (x === 'latest' ? ['latest', { es2015: { modules: false } }] : x))
-})
+  presets: pkg.babel.presets.map(
+    x => (x === 'latest' ? ['latest', { es2015: { modules: false } }] : x)
+  )
+});
 
 // Webpack configuration (main.js => public/dist/main.{hash}.js)
 // http://webpack.github.io/docs/configuration.html
@@ -42,7 +47,9 @@ const config = {
   // Options affecting the output of the compilation
   output: {
     path: path.resolve(__dirname, '../public/dist'),
-    publicPath: isDebug ? `http://localhost:${process.env.PORT || 3000}/dist/` : '/dist/',
+    publicPath: isDebug
+      ? `http://localhost:${process.env.PORT || 3000}/dist/`
+      : '/dist/',
     filename: isDebug ? '[name].js?[hash]' : '[name].[hash].js',
     chunkFilename: isDebug ? '[id].js?[chunkhash]' : '[id].[chunkhash].js',
     sourcePrefix: '  '
@@ -94,7 +101,8 @@ const config = {
         include: [
           path.resolve(__dirname, '../src'),
           path.resolve(__dirname, '../components'),
-          path.resolve(__dirname, '../stores')
+          path.resolve(__dirname, '../containers'),
+          path.resolve(__dirname, '../redux')
         ],
         loader: 'babel-loader',
         options: babelConfig
@@ -112,7 +120,9 @@ const config = {
               importLoaders: true,
               // CSS Modules https://github.com/css-modules/css-modules
               modules: true,
-              localIdentName: isDebug ? '[name]_[local]_[hash:base64:3]' : '[hash:base64:4]',
+              localIdentName: isDebug
+                ? '[name]_[local]_[hash:base64:3]'
+                : '[hash:base64:4]',
               // CSS Nano http://cssnano.co/options/
               minimize: !isDebug
             }
@@ -160,7 +170,7 @@ const config = {
       }
     ]
   }
-}
+};
 
 // Optimize the bundle in release (production) mode
 if (!isDebug) {
@@ -171,16 +181,19 @@ if (!isDebug) {
         warnings: isVerbose
       }
     })
-  )
-  config.plugins.push(new webpack.optimize.AggressiveMergingPlugin())
+  );
+  config.plugins.push(new webpack.optimize.AggressiveMergingPlugin());
 }
 
 // Hot Module Replacement (HMR) + React Hot Reload
 if (isDebug && useHMR) {
-  babelConfig.plugins.unshift('react-hot-loader/babel')
-  config.entry.unshift('react-hot-loader/patch', 'webpack-hot-middleware/client')
-  config.plugins.push(new webpack.HotModuleReplacementPlugin())
-  config.plugins.push(new webpack.NoEmitOnErrorsPlugin())
+  babelConfig.plugins.unshift('react-hot-loader/babel');
+  config.entry.unshift(
+    'react-hot-loader/patch',
+    'webpack-hot-middleware/client'
+  );
+  config.plugins.push(new webpack.HotModuleReplacementPlugin());
+  config.plugins.push(new webpack.NoEmitOnErrorsPlugin());
 }
 
-module.exports = config
+module.exports = config;

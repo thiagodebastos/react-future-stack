@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
+import styled from 'styled-components'
 import Header from './Header'
 import Footer from '../Footer'
-import styled from 'styled-components'
 
 const Wrapper = styled.div`
   margin-top: 224px;

@@ -4,14 +4,13 @@ import styled from 'styled-components'
 const ListItem = styled.div`
   text-decoration: ${({ completed }) => (completed ? 'line-through' : 'none')}
 `
-const List = ({ listItemClick, toDoList, completed, onClick }) =>
+const List = props =>
   <div>
-    {toDoList.map((todo, i) =>
-      <ListItem key={i} completed={todo.completed} onClick={onClick.bind(null, i)}>
+    {props.todoList.map((todo, i) =>
+      <ListItem key={i} completed={todo.completed}>
         {' '}
-        <span>{todo.text}</span>
-        {'  '}
-        <button onClick={listItemClick}>toggle</button>
+        <span onClick={props.onClick.bind(null, i)}>{todo.text}</span>
+        <button onClick={props.deleteListItem.bind(null, i)}>X</button>
       </ListItem>
     )}
   </div>

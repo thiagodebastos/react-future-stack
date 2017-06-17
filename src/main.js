@@ -1,16 +1,16 @@
-import 'babel-polyfill'
-import 'whatwg-fetch'
+import 'babel-polyfill';
+import 'whatwg-fetch';
 
-import React from 'react'
-import ReactDOM from 'react-dom'
-import FastClick from 'fastclick'
-import { Provider } from 'react-redux'
-import configureStore from '../redux/configureStore'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import FastClick from 'fastclick';
+import { Provider } from 'react-redux';
+import configureStore from '../redux/configureStore';
 
-import router from './router'
-import history from './history'
+import router from './router';
+import history from './history';
 
-import { ThemeProvider, injectGlobal } from 'styled-components'
+import { ThemeProvider, injectGlobal } from 'styled-components';
 
 injectGlobal`
   body {
@@ -18,17 +18,17 @@ injectGlobal`
     padding: 0;
     font-family: Roboto;
   }
-`
+`;
 
 const defaultTheme = {
   primary: 'palevioletred',
   secondary: 'white'
-}
+};
 
-let routes = require('./routes.json').default // Loaded with utils/routes-loader.js
+let routes = require('./routes.json').default; // Loaded with utils/routes-loader.js
 
-const container = document.getElementById('container')
-let store = configureStore()
+const container = document.getElementById('container');
+const store = configureStore();
 
 function renderComponent(component) {
   ReactDOM.render(
@@ -38,7 +38,7 @@ function renderComponent(component) {
       </ThemeProvider>
     </Provider>,
     container
-  )
+  );
 }
 
 // Find and render a web page matching the current URL path,
@@ -47,23 +47,25 @@ function render(location) {
   router
     .resolve(routes, location)
     .then(renderComponent)
-    .catch(error => router.resolve(routes, { ...location, error }).then(renderComponent))
+    .catch(error =>
+      router.resolve(routes, { ...location, error }).then(renderComponent)
+    );
 }
 
 // Handle client-side navigation by using HTML5 History API
 // For more information visit https://github.com/ReactJSTraining/history/tree/master/docs#readme
-history.listen(render)
-render(history.location)
+history.listen(render);
+render(history.location);
 
 // Eliminates the 300ms delay between a physical tap
 // and the firing of a click event on mobile browsers
 // https://github.com/ftlabs/fastclick
-FastClick.attach(document.body)
+FastClick.attach(document.body);
 
 // Enable Hot Module Replacement (HMR)
 if (module.hot) {
   module.hot.accept('./routes.json', () => {
-    routes = require('./routes.json').default // eslint-disable-line global-require
-    render(history.location)
-  })
+    routes = require('./routes.json').default; // eslint-disable-line global-require
+    render(history.location);
+  });
 }

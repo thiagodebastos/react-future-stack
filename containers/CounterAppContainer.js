@@ -1,10 +1,10 @@
-import { connect } from 'react-redux'
-import CounterApp from '../components/CounterApp'
+import { connect } from 'react-redux';
+import CounterApp from '../components/CounterApp';
 
 function mapStateToProps(state) {
   return {
     counterApp: state.counterApp
-  }
+  };
 }
 
 function mapDispatchToProps(dispatch) {
@@ -17,7 +17,7 @@ function mapDispatchToProps(dispatch) {
       dispatch({
         type: 'DECREMENT'
       })
-  }
+  };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(CounterApp)
+export default connect(mapStateToProps, mapDispatchToProps)(CounterApp);

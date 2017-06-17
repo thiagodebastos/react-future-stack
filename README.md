@@ -2,15 +2,14 @@
 
 ## 🖲 Bleeding Edge Tech Stack 🖲
 
-- [react](https://facebook.github.io/react/) v16.0.0-alpha.3
+- [react](https://facebook.github.io/react/)
 - [react-storybook](https://storybook.js.org/)
-- [mobx](https://github.com/mobxjs/mobx)
-- [mobx-react](https://github.com/mobxjs/mobx-react)
-- [mobx-react-devtools](https://github.com/mobxjs/mobx-react-devtools)
+- [redux](https://github.com/reactjs/redux/)
+- [react-redux](https://github.com/reactjs/react-redux)
 - [styled-components](https://www.styled-components.com/)
 - [polished](https://polished.js.org)
 - [webpack](https://webpack.js.org/) 2
-- [react-hot-loader](https://gaearon.github.io/react-hot-loader/) v3.0.0-beta.7
+- [react-hot-loader](https://gaearon.github.io/react-hot-loader/)
 - [react-static-boilerplate](https://github.com/kriasoft/react-static-boilerplate)
 - [prettier](https://github.com/prettier/prettier)
 - [markdown-loader](https://github.com/peerigon/markdown-loader)
@@ -19,6 +18,8 @@
 
 - [create-react-app](https://github.com/facebookincubator/create-react-app) eject
 - [Material Components for the Web](https://material.io/components/web/)
+- [react-static-boilerplate](https://github.com/kriasoft/react-static-boilerplate/)
+- [Ducks: Modular Redux](https://github.com/erikras/ducks-modular-redux)
 
 ## Currently working on
 

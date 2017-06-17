@@ -53,6 +53,6 @@ module.exports = () => ({
     require('postcss-flexbugs-fixes')(),
     // Add vendor prefixes to CSS rules using values from caniuse.com
     // https://github.com/postcss/autoprefixer
-    require('autoprefixer')(),
-  ],
-});
+    require('autoprefixer')()
+  ]
+})

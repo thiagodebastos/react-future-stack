@@ -1,6 +1,6 @@
 {
-    "name": "ToDoApp",
+    "name": "TodoApp",
     "version": "0.0.0",
     "private": true,
-    "main": "./ToDoApp.js"
+    "main": "./TodoApp.js"
 }
