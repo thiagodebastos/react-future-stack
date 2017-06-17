@@ -1,11 +1,16 @@
 [ignore]
 <PROJECT_ROOT>/node_modules/styled-components/*
-.*/node_modules/fbjs/.*
+<PROJECT_ROOT>/node_modules/fbjs/.*
+<PROJECT_ROOT>/node_modules/stylelint/*
+<PROJECT_ROOT>/node_modules/polished/*
+<PROJECT_ROOT>/node_modules/protobufjs/*
+<PROJECT_ROOT>/tools/postcss.config.js
 
 [include]
 
 [libs]
 styled-components
+polished
 
 [options]
 esproposal.class_static_fields=enable

@@ -9,6 +9,10 @@ declare var todoAppState: {
   newTodo: string
 };
 
+declare var counterAppState: {
+  count: number
+};
+
 declare type CounterActionType = 'INCREMENT' | 'DECREMENT';
 
 declare type CounterActionT<A: CounterActionType, P> = {|
