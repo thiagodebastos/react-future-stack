@@ -1,12 +1,16 @@
 // @flow
 
-declare var todoAppState: {
-  todos: Array<{
-    id: number,
-    text: string,
-    completed: boolean
-  }>,
-  newTodo: string
+export type Todo = {
+  id: number,
+  text: string,
+  completed: boolean
+};
+
+export type TodoList = Array<Todo>;
+
+export type todoAppState = {
+  todos?: TodoList,
+  newTodo?: string
 };
 
 declare var counterAppState: {

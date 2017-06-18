@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
-import Layout from '../../../components/Layout'
-import TodoAppContainer from '../../../containers/TodoAppContainer'
-import { title, html } from './index.md'
+import React, { Component } from 'react';
+import Layout from '../../../components/Layout';
+import TodoAppContainer from '../../../containers/TodoAppContainer';
+import { title, html } from './index.md';
 
-class CounterPage extends Component {
+class TodoPage extends Component {
   componentDidMount() {
-    document.title = title
+    document.title = title;
   }
 
   render() {
@@ -15,11 +15,11 @@ class CounterPage extends Component {
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <h4>Counter</h4>
+        <h4>Todo App</h4>
         <TodoAppContainer />
       </Layout>
-    )
+    );
   }
 }
 
-export default CounterPage
+export default TodoPage;

@@ -1,17 +1,31 @@
-import React from 'react'
-import styled from 'styled-components'
+// @flow
 
-const ListItem = styled.div`
+import React from 'react';
+import styled from 'styled-components';
+
+const ListItem = styled.li`
   text-decoration: ${({ completed }) => (completed ? 'line-through' : 'none')}
-`
-const List = props =>
-  <div>
+`;
+
+type Props = {
+  todoList: TodoList
+};
+
+const List = (props: Props) =>
+  <ul className="collection">
     {props.todoList.map((todo, i) =>
-      <ListItem key={i} completed={todo.completed}>
+      <ListItem className="collection-item" key={i} completed={todo.completed}>
         {' '}
-        <span onClick={props.onClick.bind(null, i)}>{todo.text}</span>
-        <button onClick={props.deleteListItem.bind(null, i)}>X</button>
+        <span role="menuitem" onClick={props.onClick.bind(null, i)}>
+          {todo.text}
+        </span>
+        <button
+          className="btn-floating btn-small waves-effect waves-light red"
+          onClick={props.deleteListItem.bind(null, i)}
+        >
+          X
+        </button>
       </ListItem>
     )}
-  </div>
-export default List
+  </ul>;
+export default List;
