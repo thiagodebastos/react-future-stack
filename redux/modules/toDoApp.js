@@ -45,35 +45,35 @@ export default function reducer(
   action: Object
 ) {
   switch (action.type) {
-  case LIST_ITEM_CLICK:
-    return Object.assign({}, state, {
-      todos: [
-        ...state.todos.slice(0, action.index),
-        Object.assign({}, state.todos[action.index], {
-          completed: !state.todos[action.index].completed
-        }),
-        ...state.todos.slice(action.index + 1)
-      ]
-    });
+    case LIST_ITEM_CLICK:
+      return Object.assign({}, state, {
+        todos: [
+          ...state.todos.slice(0, action.index),
+          Object.assign({}, state.todos[action.index], {
+            completed: !state.todos[action.index].completed
+          }),
+          ...state.todos.slice(action.index + 1)
+        ]
+      });
 
-  case INPUT_CHANGE:
-    return Object.assign({}, state, { newTodo: action.value });
+    case INPUT_CHANGE:
+      return Object.assign({}, state, { newTodo: action.value });
 
-  case INPUT_SUBMIT:
-    return Object.assign({}, state, {
-      todos: [...state.todos, { text: state.newTodo, completed: false }],
-      newTodo: ''
-    });
+    case INPUT_SUBMIT:
+      return Object.assign({}, state, {
+        todos: [...state.todos, { text: state.newTodo, completed: false }],
+        newTodo: ''
+      });
 
-  case DELETE_LIST_ITEM:
-    return Object.assign({}, state, {
-      todos: [
-        ...state.todos.slice(0, action.index),
-        ...state.todos.slice(action.index + 1)
-      ]
-    });
+    case DELETE_LIST_ITEM:
+      return Object.assign({}, state, {
+        todos: [
+          ...state.todos.slice(0, action.index),
+          ...state.todos.slice(action.index + 1)
+        ]
+      });
 
-  default:
-    return state;
+    default:
+      return state;
   }
 }

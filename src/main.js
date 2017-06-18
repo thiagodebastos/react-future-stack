@@ -4,20 +4,25 @@ import 'whatwg-fetch';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import FastClick from 'fastclick';
+import { ThemeProvider, injectGlobal } from 'styled-components';
 import { Provider } from 'react-redux';
 import configureStore from '../redux/configureStore';
 
 import router from './router';
 import history from './history';
 
-import { ThemeProvider, injectGlobal } from 'styled-components';
-
+// eslint-disable-line unused-expressions
 injectGlobal`
   body {
-    margin: 0;
-    padding: 0;
-    font-family: Roboto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
   }
+
+  main {
+    flex: 1 0 auto;
+  }
+
 `;
 
 const defaultTheme = {
@@ -25,7 +30,8 @@ const defaultTheme = {
   secondary: 'white'
 };
 
-let routes = require('./routes.json').default; // Loaded with utils/routes-loader.js
+// Loaded with utils/routes-loader.js
+let routes = require('./routes.json').default;
 
 const container = document.getElementById('container');
 const store = configureStore();
@@ -41,8 +47,8 @@ function renderComponent(component) {
   );
 }
 
-// Find and render a web page matching the current URL path,
-// if such page is not found then render an error page (see routes.json, core/router.js)
+// Find and render a web page matching the current URL path, if such page is not found then render an error page (see
+// routes.json, core/router.js)
 function render(location) {
   router
     .resolve(routes, location)

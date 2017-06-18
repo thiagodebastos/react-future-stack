@@ -1,11 +1,11 @@
-import React from 'react'
-import Layout from '../../components/Layout'
-import Link from '../../components/Link'
-import { title, html } from './index.md'
+import React from 'react';
+import Layout from '../../components/Layout';
+import Link from '../../components/Link';
+import { title, html } from './index.md';
 
 class DemoAppsHome extends React.Component {
   componentDidMount() {
-    document.title = title
+    document.title = title;
   }
 
   render() {
@@ -15,16 +15,13 @@ class DemoAppsHome extends React.Component {
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <h4>Components</h4>
         <ul>
-          <li>
-            <Link to="/demo-apps/counter-app">Redux Counter</Link>
-            <Link to="/demo-apps/todo-app">Redux Todo</Link>
-          </li>
+          <li><Link to="/demo-apps/counter-app">Redux Counter</Link></li>
+          <li><Link to="/demo-apps/todo-app">Redux Todo</Link></li>
         </ul>
       </Layout>
-    )
+    );
   }
 }
 
-export default DemoAppsHome
+export default DemoAppsHome;
