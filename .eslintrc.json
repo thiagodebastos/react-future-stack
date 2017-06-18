@@ -19,7 +19,6 @@
     }
   },
   "rules": {
-    "prettier/prettier": "error",
     "max-len": ["error", 80, {
       "ignorePattern": "path"
     }],

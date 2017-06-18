@@ -5,22 +5,29 @@ import { List as SemanticList } from 'semantic-ui-react';
 import styled from 'styled-components';
 
 const ListContent = styled(SemanticList.Content)`
-  text-decoration: ${({ completed }) => (completed ? 'line-through' : 'none')}
+  text-decoration: ${props =>
+    props['data-completed'] ? 'line-through' : 'none'}
 `;
+
+ListContent.passProps = false;
 
 type Props = {
   todoList: TodoList
 };
 
+// NOTE: Use date attributes to prevent `react-unknown-prop` error
+// https://gist.github.com/jimfb/d99e0678e9da715ccf6454961ef04d1b
+// https://github.com/styled-components/styled-components/issues/439#issuecomment-307335814
+
 const List = (props: Props) =>
   <SemanticList>
-    {props.todoList.map((todo, i) =>
+    {props.todoList.map(({ completed, text }, i) =>
       <SemanticList.Item key={i}>
         <ListContent
           onClick={props.onClick.bind(null, i)}
-          completed={todo.completed}
+          data-completed={completed}
         >
-          {todo.text}
+          {text}
         </ListContent>
         <SemanticList.Icon
           name="github"
