@@ -1,4 +1,7 @@
 [ignore]
+<PROJECT_ROOT>/public
+<PROJECT_ROOT>/docs
+<PROJECT_ROOT>/build
 <PROJECT_ROOT>/node_modules/styled-components/*
 <PROJECT_ROOT>/node_modules/fbjs/.*
 <PROJECT_ROOT>/node_modules/stylelint/*

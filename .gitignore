@@ -6,9 +6,15 @@ public/dist
 public/index.html
 public/sitemap.xml
 
+# Testing output
+coverage
+.nyc_output
+
 # Node.js and NPM
 node_modules
 npm-debug.log
+yarn-error.log
+
 
 # Firebase
 firebase-debug.log
