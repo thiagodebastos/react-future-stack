@@ -4,6 +4,7 @@
     "plugin:flowtype/recommended",
     "airbnb",
     "prettier",
+    "prettier/flowtype",
     "prettier/react"
   ],
   "plugins": [
@@ -18,6 +19,7 @@
     }
   },
   "rules": {
+    "prettier/prettier": "error",
     "max-len": ["error", 80, {
       "ignorePattern": "path"
     }],
@@ -26,7 +28,13 @@
     "import/no-extraneous-dependencies": "off",
     "quotes": [1, "single", {
       "allowTemplateLiterals": true
-    }]
+    }],
+    "no-console": [
+      "error",
+      {
+        "allow": ["warn", "error", "info"]
+      }
+    ]
   },
   "env": {
     "es6": true,
