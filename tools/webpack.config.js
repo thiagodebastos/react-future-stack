@@ -59,7 +59,7 @@ const config = {
 
   // Developer tool to enhance debugging, source maps
   // http://webpack.github.io/docs/configuration.html#devtool
-  devtool: isDebug ? 'source-map' : false,
+  devtool: isDebug ? 'eval-cheap-module-source-map' : false,
 
   // What information should be printed to the console
   stats: {
@@ -118,21 +118,24 @@ const config = {
             options: {
               sourceMap: isDebug,
               importLoaders: true,
+              // NOTE: CSS Modules will not work with semantic-ui css since
+              // that requires proper css classnames.
               // CSS Modules https://github.com/css-modules/css-modules
-              modules: true,
-              localIdentName: isDebug
-                ? '[name]_[local]_[hash:base64:3]'
-                : '[hash:base64:4]',
+              // modules: true,
+              // localIdentName: isDebug
+              //   ? '[name]_[local]_[hash:base64:3]'
+              //   : '[hash:base64:4]',
               // CSS Nano http://cssnano.co/options/
               minimize: !isDebug
             }
-          } /* ,
-                    {
-                        loader: 'postcss-loader',
-                        options: {
-                            config: './tools/postcss.config.js'
-                        }
-                    }*/
+          }
+          /* ,
+          {   // NOTE: postcss will not work with styled components
+              loader: 'postcss-loader',
+              options: {
+                  config: './tools/postcss.config.js'
+              }
+          }*/
         ]
       },
       {

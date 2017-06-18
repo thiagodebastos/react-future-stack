@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 import Header from './Header';
-import Footer from '../Footer';
+// import Footer from '../Footer';
 
 const Wrapper = styled.div`
   // margin-top: 224px;
@@ -18,7 +18,7 @@ class Layout extends PureComponent {
         <Header />
         <main>
           <div {...this.props} />
-          <Footer />
+          {/* <Footer /> */}
         </main>
       </Wrapper>
     );

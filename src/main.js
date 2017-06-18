@@ -4,26 +4,13 @@ import 'whatwg-fetch';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import FastClick from 'fastclick';
-import { ThemeProvider, injectGlobal } from 'styled-components';
+import { ThemeProvider } from 'styled-components';
+import 'semantic-ui-css/semantic.css';
 import { Provider } from 'react-redux';
 import configureStore from '../redux/configureStore';
 
 import router from './router';
 import history from './history';
-
-// eslint-disable-line unused-expressions
-injectGlobal`
-  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1 0 auto;
-  }
-
-`;
 
 const defaultTheme = {
   primary: 'palevioletred',
