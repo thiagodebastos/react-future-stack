@@ -4,7 +4,7 @@
 boilerplate and tooling for creating modern stand-alone web applications (aka
 [SPA](https://en.wikipedia.org/wiki/Single-page_application)s) for a serverless architecture. RSB
 significantly reduces cost by eliminating the need for servers such as EC2 instances because the
-entire site can be hosted directly from CDN ([Firebase](https://www.firebase.com/), [GitHub
+entire site can be hosted directly from CDN [GitHub
 Pages](https://pages.github.com/), [Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html),
 or other similar cloud storage). Sites built with RSB can be fully functional with REST API or
 GraphQL calls to micro-services such as [Amazon Lambda](https://aws.amazon.com/lambda/),
@@ -115,9 +115,7 @@ $ yarn test                     # Run unit tests. Or, `yarn run test:watch`
 
 ### How to Deploy
 
-Update `publish` script in the [`tools/publish.js`](tools/publish.js) file with your full Firebase
-project name as found in your [Firebase console](https://console.firebase.google.com/). Note that
-this may have an additional identifier suffix than the shorter name you've provided. Then run: 
+Update `publish` script in the [`tools/config.js`](tools/config.js) file with your S3 config. Then run:
 
 ```shell
 $ yarn run publish                  # Builds and deployes the app to Firebase
