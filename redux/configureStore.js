@@ -1,11 +1,11 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux';
-import { createLogger } from 'redux-logger';
+// import { createLogger } from 'redux-logger';
 import counterApp from './modules/counterApp';
 import todoApp from './modules/todoApp';
 
-const loggerMiddleware = createLogger();
+/* const loggerMiddleware = createLogger(); */
 
-const createStoreWithMiddleware = applyMiddleware(loggerMiddleware)(
+const createStoreWithMiddleware = applyMiddleware(/* loggerMiddleware */)(
   createStore
 );
 
