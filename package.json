@@ -2,6 +2,7 @@
   "name": "react-future-stack",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://thiagodebastos.hithub.io/react-future-stack",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -56,6 +57,7 @@
     "firebase-tools": "^3.5.0",
     "flow-bin": "^0.48.0",
     "front-matter": "^2.1.2",
+    "gh-pages": "^1.0.0",
     "highlight.js": "^9.10.0",
     "immutable": "^3.8.1",
     "jest": "^20.0.4",
@@ -98,8 +100,7 @@
     ],
     "plugins": [
       "transform-decorators-legacy",
-      "transform-runtime",
-      [
+      "transform-runtime", [
         "lodash",
         {
           "id": [
@@ -133,6 +134,7 @@
     "build": "node tools/build.js",
     "build:debug": "node tools/build.js --debug",
     "publish": "node tools/publish.js",
+    "publish:gh": "node tools/build.js && gh-pages -d public",
     "publish:debug": "node tools/publish.js --debug",
     "start": "node tools/run.js",
     "storybook": "start-storybook -p 6006",
