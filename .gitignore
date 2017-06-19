@@ -7,7 +7,6 @@ public/index.html
 public/sitemap.xml
 
 # Testing output
-coverage
 .nyc_output
 
 # Node.js and NPM
@@ -18,3 +17,6 @@ yarn-error.log
 
 # Firebase
 firebase-debug.log
+
+# Jest
+coverage

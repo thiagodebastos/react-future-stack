@@ -28,6 +28,7 @@
     "autoprefixer": "^7.1.1",
     "babel-core": "^6.25.0",
     "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
     "babel-loader": "^7.0.0",
     "babel-plugin-lodash": "^3.2.11",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
@@ -61,7 +62,6 @@
     "jest": "^20.0.4",
     "json-loader": "^0.5.4",
     "markdown-it": "^8.3.1",
-    "mocha": "^3.2.0",
     "path-to-regexp": "^1.7.0",
     "pixrem": "^3.0.2",
     "pleeease-filters": "^4.0.0",
@@ -98,8 +98,7 @@
     ],
     "plugins": [
       "transform-decorators-legacy",
-      "transform-runtime",
-      [
+      "transform-runtime", [
         "lodash",
         {
           "id": [
@@ -123,13 +122,17 @@
       "string-quotes": "single"
     }
   },
+  "jest": {
+    "testRegex": "(/test/.*\\.spec.js)$"
+  },
   "scripts": {
     "eslint": "eslint components src test tools postcss.config.js webpack.config.js",
     "stylelint": "stylelint \"components/**/*.css\" \"src/**/*.css\"",
     "lint": "npm run eslint && npm run stylelint",
     "test": "jest",
-    "test:coverage": "jest --coverage",
-    "test:update": "jest -u",
+    "test:coverage": "yarn test -- --coverage",
+    "test:update": "yarn test -- -u",
+    "test:watch": "yarn test -- -watch",
     "build": "node tools/build.js",
     "build:debug": "node tools/build.js --debug",
     "publish": "node tools/publish.js",

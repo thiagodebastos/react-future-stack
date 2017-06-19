@@ -105,7 +105,7 @@ available at [http://localhost:3000/](http://localhost:3000/).
 
 ### How to Test
 
-The unit tests are powered by [chai](http://chaijs.com/) and [mocha](http://mochajs.org/).
+The unit tests are powered by [jest](https://facebook.github.io/jest/).
 
 ```shell
 $ yarn lint                     # Check JavaScript and CSS code for potential issues
@@ -117,7 +117,7 @@ $ yarn test                     # Run unit tests. Or, `yarn run test:watch`
 
 Update `publish` script in the [`tools/publish.js`](tools/publish.js) file with your full Firebase
 project name as found in your [Firebase console](https://console.firebase.google.com/). Note that
-this may have an additional identifier suffix than the shorter name you've provided. Then run: 
+this may have an additional identifier suffix than the shorter name you've provided. Then run:
 
 ```shell
 $ yarn run publish                  # Builds and deployes the app to Firebase
