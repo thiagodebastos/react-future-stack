@@ -3,6 +3,7 @@ import 'whatwg-fetch';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { AppContainer } from 'react-hot-loader';
 import FastClick from 'fastclick';
 import { ThemeProvider } from 'styled-components';
 import 'semantic-ui-css/semantic.css';
@@ -25,11 +26,13 @@ const store = configureStore();
 
 function renderComponent(component) {
   ReactDOM.render(
-    <Provider store={store}>
-      <ThemeProvider theme={defaultTheme}>
-        {component}
-      </ThemeProvider>
-    </Provider>,
+    <AppContainer>
+      <Provider store={store}>
+        <ThemeProvider theme={defaultTheme}>
+          {component}
+        </ThemeProvider>
+      </Provider>
+    </AppContainer>,
     container
   );
 }
